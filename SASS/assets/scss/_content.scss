@@ -1,0 +1,107 @@
+#content {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    
+    #textOverBullets {
+	    display: inline-block;
+	    font-size: 3em;
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 100px;
+	    color: white;
+	    font-weight: bold;
+	}
+	#secondTextOverBullets {
+	    display: inline-block;
+	    text-align: center;
+	    width: 100%;
+	    margin: 0 auto;
+	    color: grey;
+	    padding: 80px 0px 80px 0px;
+	}
+	#bullets {
+	
+		ul {
+			list-style-type: none;
+			
+			p{
+				color: #555555;
+				line-height: 1.4em;
+			}
+			li:hover{
+			    color: white;
+			}
+			li{
+				    line-height: 1.5em;
+				    list-style-type: none;
+   					color: grey;
+   					font-size: 25px;
+			}
+		}
+	}
+	#firstBullets {
+	    float: left;
+	    color: white;
+	    display: inline-block;
+	    padding-left: 3em;
+	    font-size: 30px;
+	}
+	#secondBullets{
+	    float: left;
+	    color: white;
+	    display: inline-block;
+	    font-size: 30px;
+	    padding-left: 5em;
+	}
+	#thirdBullets{
+	    float: left;
+	    color: white;
+	    display: inline-block;
+	    font-size: 30px;
+	    padding-left: 5em;
+	}
+	#fourthBullets{
+	    float: left;
+	    color: white;
+	    display: inline-block;
+	    font-size: 30px;
+	    padding-left: 5em;
+	}
+	#popular {
+	    color: white;
+	    font-size: 3em;
+	    display: inline-block;
+	    width: 1170px;
+	    text-align: center;
+	    margin-top: 4em;
+	}
+
+}
+#test {
+		#button {
+		    margin-top: 5em;
+		    opacity: 0.4;
+		    display: inline-block;
+		    font-weight: 300;
+		    cursor: pointer;
+		    border: 1px solid Transparent;
+		    background: rgba(169, 169, 169, 0.07);
+		    outline: none;
+		    text-align: center;
+		    transition: 0.2s all cubic-bezier(0.25, 0.1, 0.01, 0.97);
+		    padding: 23px 0px;
+		    border-radius: 42px;
+		    text-transform: uppercase;
+		    font-size: 13px;
+		    width: 97%;
+		    min-width: 190px;
+		    width: 0%;
+		    margin-left: 42%;
+		    border-color: #7cc3d8;
+		    color:#ffffff;
+
+		}
+	}
+

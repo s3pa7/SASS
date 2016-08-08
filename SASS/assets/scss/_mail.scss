@@ -1,0 +1,126 @@
+.text-center-mail-us {
+	text-align: center;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 1em;
+}
+.mail-us {
+	width:100%;
+	border: 1px solid #1F2324;
+	margin: 0 auto;
+	background-color: #1F2324;
+	height: 500px;
+	
+	
+}
+.mail-form {
+	position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+	box-sizing: border-box;
+} 
+.mailform label {
+    position: relative;
+    display: inline-block;
+    width: 48.5%;
+}
+.textarea{
+    position: relative;
+    display: inline-block;
+    width: 98.5% !important;
+}
+.mailform {
+	text-align: left;
+}
+label {
+	max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.mailform label:first-child {
+    margin-top: 0;
+}
+.mfValidation {
+    -o-transform-origin: 0% 50%;
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    -ms-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    -webkit-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+    -o-animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+    animation: notifanim-fo 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
+    -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    background: #111;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: 998;
+    height: 20px;
+    line-height: 12px;
+    min-height: 20px;
+    padding: 3px 7px;
+    right: 0;
+    top: 0;
+    width: 167px;
+}
+
+.mailform label input , textarea {
+	display: block;
+    width: 90%;
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px 20px 18px 0px;
+    line-height: 22px;
+    color: #b1b6b8;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #31383a;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+.mfPlaceHolder {
+    font: inherit;
+    cursor: text;
+    position: absolute;
+    left:4em;
+    bottom: 0;
+    padding: 20px 20px 18px 0px;
+    line-height: 22px;
+    color: #b1b6b8;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 300;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+ }
+.change {
+	opasity:.0;
+	transform:translateY(-30%) scale(0.8);
+	 
+}

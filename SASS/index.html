@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Side with Sass</title>
+<link rel="stylesheet" type="text/css"  href="assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="assets/js/ajax.js"></script>
+<script type="text/javascript" src="assets/js/file.js"></script>
+</head>
+<body>
+ 	<div id="container">
+ 		<header>
+ 			<div class="dropdowna" style="display:none">
+			  <button onclick="myFunction()" class="slide-bar dropbtna"><p></p><p></p><p></p></button>
+			  <div id="myDropdown" class="dropdown-contenta">
+			    <a href="#">HOME</a>
+			    <a href="#">ABOUT</a>
+			    <a href="#">MOST POPULAR</a>
+			    <a href="#">NEWS</a>
+			    <a href="#">CONTACTS</a>
+			  </div>
+			</div>
+ 			<h1>MOVIES</h1>
+				<nav class="nav">
+					<ul id="hide-show">
+					  <li><a class="active" href="#home">HOME</a></li>
+					   <li class="dropdown">
+					    	<a href="#" class="dropbtn">ABOUT</a>
+					    <div class="dropdown-content">
+					      <a href="#">My video</a>
+					      <a href="#">My movies</a>
+					      <a href="#">My picture</a>
+					      <a href="#">Most popular picture</a>
+					      <a href="#">Most popular video</a>
+					    </div>
+					  </li>
+					  <li><a href="#news">MOST POPULAR</a></li>
+					  <li><a href="#news">NEWS</a></li>
+					  <li><a href="#news">CONTACTS</a></li>
+					  <li><a href="news"><img alt="active" src="assets/images/icon-search.png" width="20px"></a></li>
+					</ul>
+				</nav>
+ 		</header>
+		<div id="layout">
+            <ul>
+                <li><a href="#news">CINEMA MOVIES</a></li>
+                <li><a href="#news">TV SERIES</a></li>
+                <li><a href="#news">CARTOONS</a></li>
+                <li><a href="#news">ANIME</a></li>
+                <li><a href="#news">NEW MOVIES</a></li>
+                <li><a href="#news">HD MOVIES</a></li>
+            </ul>
+        </div>
+        <div id="exmashine">
+        	<h1 id="h1-change">Ex-mashine</h1>
+        	 <p id="p-change">Ex Machina (stylized as ex_machina or EX_MACHINA) is a 2015 science fiction psychological thriller film written and directed by Alex Garland in his directorial debut, and produced by Andrew Macdonald and Allon Reich.</p>
+        	 <div class="buttons">
+					<div class="button"><a href="">LEARN MORE</a></div>
+					<div class="button"><a href="">WATCH TRAILER</a></div>
+			</div>
+			<div class="images">
+                <a id="one" href="javascript:void(0)"><img src="assets/images/Mad-Max.jpg" id="oneOne" height="100%"> </a>
+                <a id="two" href="javascript:void(0)"><img src="assets/images/maxresdefault.jpg" id="twoTwo" height="100%"></a>
+                <a id="three" href="javascript:void(0)"><img src="assets/images/spongebob.jpg" id="threeThree" height="100%"></a>
+            </div>
+			
+        </div>
+        <div id="content">
+	        <div id="textOverBullets">
+	        	Watch your favourite movies online
+	        </div>
+	        <div id="secondTextOverBullets">
+	        	Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce<br>
+	            suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturientmontes nascetur ridiculus mus. Nulla dui. Fusce feugiat ma<br>
+	            lesuada odio. Morbi nunc odio gravida atcursus nec.
+	        </div>
+	        <div id="bullets">
+		        <ul id="firstBullets">
+		            <li><input class="test" type="checkbox">Action</li>
+		            <li><input type="checkbox">Adventure</li>
+		            <li><input type="checkbox">Animation</li>
+		            <li><input type="checkbox">Biography</li>
+		            <li><input type="checkbox">Comedy</li>
+		            <li><input type="checkbox">Crime</li>
+		        </ul>
+		        <ul id="secondBullets">
+		            <li><input type="checkbox">Drama</li>
+		            <li><input type="checkbox">Family</li>
+		            <li><input type="checkbox">Fantasy</li>
+		            <li><input type="checkbox">game-show</li>
+		            <li><input type="checkbox">History</li>
+		            <li><input type="checkbox">Horror</li>
+		            <li><input type="checkbox">Kids</li>
+		        </ul>
+		        <ul id="thirdBullets">
+		            <li><input type="checkbox">Music</li>
+		            <li><input type="checkbox">Musical</li>
+		            <li><input type="checkbox">Mystery</li>
+		            <li><input type="checkbox">News</li>
+		            <li><input type="checkbox">Romance</li>
+		            <li><input type="checkbox">Sci-Fi</li>
+		            <li><input type="checkbox">Short</li>
+		        </ul>
+		        <ul id="fourthBullets">
+		            <li><input type="checkbox">Sport</li>
+		            <li><input type="checkbox">Thriller</li>
+		            <li><input type="checkbox">War</li>
+		        </ul>
+		    </div>
+		<div id="test">
+			<a href="#" id="button">view</a>
+		</div>
+	    </div>
+		<div class="article">
+				<div class="text-center">
+				<h2  class="popular-h2">Popular</h2>
+				<div id="images">
+
+            <!--<img id="first-pic" src="http://i.imgur.com/op5cr7N.jpg">-->
+            <div  class="pic">
+                <img id="img1" src="http://i.imgur.com/op5cr7N.jpg" alt="portrait" />
+                <div class="count">
+                	<p id="text-count1" class="text-count1">10</p>
+                	<p id="text-date1" class="text-count2"></p>
+                	<p id="text-count2" class="text-count3">300</p>
+                </div>
+                <div class="div">
+                    	<a class="click" href="javascript:void(0)"><i class="fa fa-eye pics1" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="dates1" class="fa fa-clock-o pics2" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="picks1" class="fa fa fa-heart-o pics3" aria-hidden="true"></i></a>
+                </div>
+				<p class="hercules">Hercules</p>
+					<a class="anchor-star" href="#">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star-white" src="https://pixabay.com/static/uploads/photo/2014/09/19/12/41/star-452327_960_720.png">
+				</a>
+            </div>
+            <div class="pic">
+                <img id="img2" src="http://i.imgur.com/llgdAjw.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+                <div class="count">
+                	<p id="text-count3" class="text-count1">25</p>
+                	<p id="text-date2" class="text-count2"></p>
+                	<p id="text-count4" class="text-count3">450</p>
+                </div>
+                <div class="div">
+                    	<a  class="click" href="javascript:void(0)"><i class="fa fa-eye pics1" aria-hidden="true"></i></a>
+                    	<a  class="click" href="javascript:void(0)"><i id="dates2" class="fa fa-clock-o pics2" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="picks2" class="fa fa fa-heart-o pics3" aria-hidden="true"></i></a>
+                </div>
+				<p class="hercules">The Grounded</p>
+				<a class="anchor-star" href="#">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+				</a>
+            </div>
+            <div class="pic">
+                <img id="img3" src="http://i.imgur.com/KlW0a5a.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+                <div class="count">
+                	<p id="text-count5" class="text-count1">24</p>
+                	<p id="text-date3" class="text-count2"></p>
+                	<p id="text-count6" class="text-count3">444</p>
+                </div>
+               <div class="div">
+                    	<a class="click" href="javascript:void(0)"><i class="fa fa-eye pics1" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="dates3" class="fa fa-clock-o pics2" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i  id="picks3" class="fa fa fa-heart-o pics3" aria-hidden="true"></i></a>
+                </div>
+				<p class="hercules">Ride Along</p>
+				<a class="anchor-star" href="#">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+				</a>
+            </div>
+            <div class="pic">
+                <img id="img4" src="http://i.imgur.com/PGASLBL.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+                <div class="count">
+                	<p id="text-count7" class="text-count1">24</p>
+                	<p id="text-date4" class="text-count2"></p>
+                	<p id="text-count8" class="text-count3">888</p>
+                </div>
+               <div class="div">
+                    	<a class="click" href="javascript:void(0)"><i class="fa fa-eye pics1" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="dates4" class="fa fa-clock-o pics2" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="picks4"class="fa fa fa-heart-o pics3" aria-hidden="true"></i></a>
+                </div>
+				<p class="hercules">Enemies closer</p>
+				<a class="anchor-star" href="#">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+				</a>
+            </div>
+            <div class="pic">
+                <img id="img5" src="http://i.imgur.com/oqCK2AF.jpg" class="img-responsive img-thumbnail" alt="Responsive image" />
+                <div class="count">
+                	<p id="text-count9" class="text-count1">1</p>
+                	<p id="text-date5" class="text-count2"></p>
+                	<p id="text-count10" class="text-count3">65</p>
+                </div>
+               <div class="div">
+                    	<a class="click" href="javascript:void(0)"><i class="fa fa-eye pics1" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="dates5" class="fa fa-clock-o pics2" aria-hidden="true"></i></a>
+                    	<a class="click" href="javascript:void(0)"><i id="picks5" class="fa fa fa-heart-o pics3" aria-hidden="true"></i></a>
+                </div>
+                <p class="hercules">Doubt</p>
+                <a class="anchor-star" href="#">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+					<img class="star" src="https://thetomatos.com/wp-content/uploads/2016/05/blue-star-clip-art-2.png">
+				</a>
+           		 </div>
+       		</div>
+			</div>
+  		</div>
+  		<div class="text-center1">
+			<h2>Testimonials</h2>
+			<div class="img-border">
+				<a class="a"  href="javascript:void(0)">
+					<img class="arrow"  src="https://www.jobs.bg/images/g_arrow_l.png">
+				</a>
+					<img class="circle-img" src="http://www.web-fastnet.eu/movie/images/page-1_img19.jpg">
+				<a class="rotate-arrow"  href="javascript:void(0)">
+					<img class="rotate-arrow"  src="https://www.jobs.bg/images/g_arrow_l.png">
+				</a>
+			</div>
+			<div>
+	  			<h3 class="img-text-james">James B.</h3>
+	  		</div>
+	  		<div>
+				<p class="movie-fans">Movie fans</p>
+			</div>
+			<div>
+			     <p class="text-lorem">
+			     	<q>“Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent
+	                           vestibulum mole
+	                           <br/>
+	                           stie lacunummy hendrerit mauris. Phsce suscipit varius mi.”
+	                 </q>
+	              </p>
+			</div>	
+  		</div>
+  		
+  		<section class="mail-us">
+  				<div>
+  					<h2 class="text-center-mail-us">Mail us</h2>
+
+	  				<form class='mailform' method="post" action="">
+	                    <input type="hidden" name="form-type" value="contact"/>
+	                    <fieldset>
+	                        <label>
+	                            <input type="text" name="name"/>
+	                            <span  id="Name"  class="mfPlaceHolder">Your Name</span>
+	                        </label>
+	
+	                        <label id="test">
+	                            <input type="text" name="email"/>
+	                            <span  id="Email"  class="mfPlaceHolder">Your Email</span>
+	                        </label>
+	
+	                        <label class="textarea">
+	                          <textarea name="message"></textarea>
+	                          <span  id="Message"  class="mfPlaceHolder">Your Email</span>
+	                        </label>
+	
+					   		<div id="test">
+								<a href="#" id="button">SEND</a>
+							</div>
+	                    </fieldset>
+	                </form>
+  				</div>
+  			</section>	
+			
+			<div class="map">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+			</div>
+			<footer class="footer">
+				<div class="movies">Movies © 2016 ·Privacy Policy</div>
+			    <h2 class="footer-question">Questions? Call Us Toll Free: (012) 123-456-7890</h2>
+
+			    
+			</footer>
+	    
+    </div>
+</body>
+</html>
